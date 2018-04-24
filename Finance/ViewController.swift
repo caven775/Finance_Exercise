@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 100));
         self.view.addSubview(label);
         
+        label.backgroundColor = UIColor.red;
+        
     }
 
     override func didReceiveMemoryWarning() {
